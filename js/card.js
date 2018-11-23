@@ -5,6 +5,7 @@ class Card {
     this.node = createNode('div');
     this.node.className = 'card';
     this.titleNode = createNode('p');
+    this.titleNode.className = 'card-text-value';
     this.titleNode.textContent = this.title;
     this.node.appendChild(this.titleNode);
   }
